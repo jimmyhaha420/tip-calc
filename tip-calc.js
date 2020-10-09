@@ -14,6 +14,6 @@ let totalAmountToTip = billAmount * percentage;
 let billWithTip = totalAmountToTip + billAmount;
 let totalPerPerson = billWithTip / totalPartySize;
 
-console.log(totalAmountToTip.toFixed(2));
-console.log(billWithTip.toFixed(2));
-console.log(totalPerPerson.toFixed(2));
+console.log(`The tip is $${totalAmountToTip.toFixed(2)}`);
+console.log(`The bill with tip is $${billWithTip.toFixed(2)}`);
+console.log(`Each person will pay $${totalPerPerson.toFixed(2)}`);
