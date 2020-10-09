@@ -1,0 +1,11 @@
+{
+  "name": "tip-calc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jimmyhaha420/tip-calc.git",
+  "author": "christopher garcia <garcia.christopher1986@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
